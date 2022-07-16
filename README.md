@@ -9,6 +9,7 @@ This is a React app boilerplate with Webpack v5
 ### Plugins
 
 - html-webpack-plugin: _simplifies creation of HTML files to serve your webpack bundles_
+- webpack-manifest-plugin: _generate a manifest.json file_
 
 ### Rules
 

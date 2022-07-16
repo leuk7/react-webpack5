@@ -1,6 +1,9 @@
 const path = require("path");
 
 const HTMLWebpackPlugin = require("html-webpack-plugin");
+const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
+
+const options = {};
 
 module.exports = {
   mode: "developement",
@@ -31,6 +34,7 @@ module.exports = {
       manifest: "./public/manifest.json",
       logo192: "./public/logo192.png",
     }),
+    new WebpackManifestPlugin(options),
   ],
 
   module: {
