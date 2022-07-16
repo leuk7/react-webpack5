@@ -2,7 +2,7 @@
 
 ## Description
 
-This a React app boilerplate with Webpack v5
+This is a React app boilerplate with Webpack v5
 
 ## Webpack configuration (Dev environnement)
 
